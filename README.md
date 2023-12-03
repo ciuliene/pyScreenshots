@@ -2,6 +2,10 @@
 
 This script allows you to take screenshots of your active applications and save them in a folder.
 
+## Operating systems
+
+The scripts has been tested on macOS only. I cannot guarantee that it will work on other operating systems.
+
 ## Requirements
 
 - Python 3.6+
