@@ -1,0 +1,7 @@
+# Python
+venv
+__pycache__
+
+# Test coverage
+.coverage
+*.info

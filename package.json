@@ -1,0 +1,12 @@
+{
+  "name": "pyscreenshots",
+  "version": "1.0.0",
+  "description": "Take screenshots of open applications using Python",
+  "main": "main.py",
+  "scripts": {
+    "test": "coverage run --omit 'tests/*,*__init__.py' -m unittest discover -s ./tests -v && coverage lcov -o lcov.info && coverage report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
