@@ -21,7 +21,7 @@ def get_arguments() -> ArgumentParser: # pragma: no cover
     if options.name is None:
         parser.error('Please specify the name of the application to take a screenshot of')
 
-    if options.expected_width < 1 or options.expected_height < 1:
+    if (options.expected_width is not None and options.expected_width < 1) or (options.expected_height is not None and options.expected_height < 1):
         parser.error('Provided parameters cannot be negative or zero')
 
     return options
