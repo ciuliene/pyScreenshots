@@ -1,5 +1,7 @@
 # PyScreenshots
 
+[![Test](https://github.com/ciuliene/pyScreenshots/actions/workflows/app_test.yml/badge.svg)](https://github.com/ciuliene/pyScreenshots/actions/workflows/app_test.yml) [![codecov](https://codecov.io/gh/ciuliene/pyScreenshots/graph/badge.svg?token=177KCQUNLD)](https://codecov.io/gh/ciuliene/pyScreenshots)
+
 This script allows you to take screenshots of your active applications and save them in a folder.
 
 ## Operating systems
