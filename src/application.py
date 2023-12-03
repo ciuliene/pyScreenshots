@@ -73,7 +73,7 @@ def get_window_geometry(app_name: str | None, index: int | None) -> WindowGeomet
         else:
             selected_window = windows[0]
 
-    print(f'Found {selected_window} window')
+    print(f'Found \033[36m"{selected_window}"\033[0m window')
 
     geometry = gw.getWindowGeometry(selected_window)
     return WindowGeometry(int(geometry[0]), int(geometry[1]), int(geometry[2]), int(geometry[3]), selected_window)
