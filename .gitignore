@@ -5,3 +5,9 @@ __pycache__
 # Test coverage
 .coverage
 *.info
+
+# Application
+screenshots/
+
+# Other
+screenshot.sh
